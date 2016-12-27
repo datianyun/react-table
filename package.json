@@ -1,5 +1,5 @@
 {
-  "name": "reactui-Table",
+  "name": "reactui-table",
   "version": "0.0.1",
   "description": "React Table",
   "main": "index.js",
@@ -38,8 +38,9 @@
     "style-loader": "^0.13.0",
     "superagent": "^3.3.0",
     "superagent-bluebird-promise": "^4.1.0",
-    "webpack": "^1.12.3",
+    "webpack": "^1.14.0",
     "webpack-dev-middleware": "^1.6.1",
+    "webpack-dev-server": "^1.16.2",
     "webpack-hot-middleware": "^2.12.2"
   },
   "dependencies": {
