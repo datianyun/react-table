@@ -1,7 +1,7 @@
 # react-table
 
 table组件
-
+![alt text](http://img1.gtimg.com/house/pics/hv1/19/116/2172/141263899.png "Title")
 [在线demo](http://datianyun.github.io/table "Title")
 ### Installation
 ``` sh
@@ -36,6 +36,8 @@ let tdata = [{
     name : 'admin',
     email : 'admin@qq.com'
 }]
+
+//组件支持html格式
 let action = {
     className : 'col-action clearfix',
     type : 'html',
@@ -44,6 +46,8 @@ let action = {
 }
 let label = '<a class="label '+'add'+'"' + ' data-status="' + '1'+'">' +'添加'+'</a>'
 action.value = label
+
+
 let cdata = [[1,"hello","qq@qq.com",action],[2,"admin","admin@qq.com",action]]
 
 <Table columns={columns} tdata={cdata}></Table>
